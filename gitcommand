@@ -1,0 +1,401 @@
+
+91991@DESKTOP-7KLS6BL MINGW64 ~ (master)
+$ list
+bash: list: command not found
+
+91991@DESKTOP-7KLS6BL MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ git_test/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{b27e0439-7d0e-11ea-aa60-40ec9901db45}.TxR.0.regtrans-ms
+ NTUSER.DAT{b27e0439-7d0e-11ea-aa60-40ec9901db45}.TxR.1.regtrans-ms
+ NTUSER.DAT{b27e0439-7d0e-11ea-aa60-40ec9901db45}.TxR.2.regtrans-ms
+ NTUSER.DAT{b27e0439-7d0e-11ea-aa60-40ec9901db45}.TxR.blf
+ NTUSER.DAT{b27e043a-7d0e-11ea-aa60-40ec9901db45}.TM.blf
+ NTUSER.DAT{b27e043a-7d0e-11ea-aa60-40ec9901db45}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{b27e043a-7d0e-11ea-aa60-40ec9901db45}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ Postman/
+ PrintHood@
+ PycharmProjects/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+
+91991@DESKTOP-7KLS6BL MINGW64 ~ (master)
+$ pwd
+/c/Users/91991
+
+91991@DESKTOP-7KLS6BL MINGW64 ~ (master)
+$ cd Desktop/
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop (master)
+$ ls
+'~$adSquareAssignment_03_06_2020.docx'   Merged_doc_payslip_exp_letter.pdf
+ 3gCTk.jpg                              'Microsoft Edge.lnk'*
+'Cisco Webex Meetings.lnk'*              mongoDBConn/
+ csv_lead.csv                           'New folder'/
+'Data Engineering Code'/                 New_Products.csv
+ desktop.ini                             New_response.csv
+ Doc/                                    OMS/
+ DP/                                     POMS/
+'DP_SQL_Test V2.xlsb'                    Postman.lnk*
+ file.json                               Programs
+'Google Chrome.lnk'*                     response.json
+ lead_response.csv                       Safalta/
+ lead_response.json                      SignDocsGetPrintPackage.pdf
+ LeadSquareAssignment_03_06_2020.docx    Slack.lnk*
+ magento-database-diagram.pdf            test.py
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop (master)
+$ mkdir git
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop (master)
+$ cd git/
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ mkdir test_demo
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ ls
+''$'\302\226''test_demo'/
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ ls
+''$'\302\226''test_demo'/
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ pwd
+/c/Users/91991/Desktop/git
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ cd test_demo
+bash: cd: test_demo: No such file or directory
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ ls
+''$'\302\226''test_demo'/
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ rm -rf *
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ ls
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ mkdir test_demo
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ ls
+test_demo/
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git (master)
+$ cd test_demo/
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ touch safalt.txt
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ vim safalt.txt
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ echo "# test_demo" >> README.md
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ ls
+README.md  safalt.txt
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git init
+Initialized empty Git repository in C:/Users/91991/Desktop/git/test_demo/.git/
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in safalt.txt.
+The file will have its original line endings in your working directory
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git commit -m"First commit"
+[master (root-commit) f475dbc] First commit
+ 2 files changed, 2 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 safalt.txt
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git remote add origin https://github.com/Safalta111/test_demo.git
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 273 bytes | 91.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Safalta111/test_demo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ vim abc.txt
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        abc.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git branch
+* master
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git add abc.txt
+warning: LF will be replaced by CRLF in abc.txt.
+The file will have its original line endings in your working directory
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   abc.txt
+
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git commit -m"2nd commit"
+[master 9d8af63] 2nd commit
+Writing objects: 100% (3/3), 314 bytes | 314.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Safalta111/test_demo.git
+   f475dbc..9d8af63  master -> master
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ ^Ct status
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ ^C
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ code .
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   abc.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git add abc.txt
+warning: LF will be replaced by CRLF in abc.txt.
+The file will have its original line endings in your working directory
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   abc.txt
+
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git commit -m"hi"
+[master d2b5bb7] hi
+ 1 file changed, 1 insertion(+)
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git branch
+* master
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 329 bytes | 329.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Safalta111/test_demo.git
+   9d8af63..d2b5bb7  master -> master
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git checkout -b saf
+Switched to a new branch 'saf'
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (saf)
+$ ls
+abc.txt  README.md  safalt.txt
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (saf)
+$ git branch
+  master
+* saf
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (saf)
+$ git checkout  master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git branch
+* master
+  saf
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git checkout  saf
+Switched to branch 'saf'
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (saf)
+$ git status
+On branch saf
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   abc.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (saf)
+$ git add .
+warning: LF will be replaced by CRLF in abc.txt.
+The file will have its original line endings in your working directory
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (saf)
+$ git commit -m"hi"
+[saf e9612e4] hi
+ 1 file changed, 2 insertions(+)
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (saf)
+$ git push origin saf
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 346 bytes | 346.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'saf' on GitHub by visiting:
+remote:      https://github.com/Safalta111/test_demo/pull/new/saf
+remote:
+To https://github.com/Safalta111/test_demo.git
+ * [new branch]      saf -> saf
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (saf)
+$ git status
+On branch saf
+nothing to commit, working tree clean
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (saf)
+$ git branch
+  master
+* saf
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (saf)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git pull origin saf
+From https://github.com/Safalta111/test_demo
+ * branch            saf        -> FETCH_HEAD
+Updating d2b5bb7..e9612e4
+Fast-forward
+ abc.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git push origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Safalta111/test_demo.git
+   d2b5bb7..e9612e4  master -> master
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        saf.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git add .
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git commit -m"file"
+[master 988dcaa] file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 saf.txt
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 341 bytes | 341.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Safalta111/test_demo.git
+   e9612e4..988dcaa  master -> master
+
+91991@DESKTOP-7KLS6BL MINGW64 ~/Desktop/git/test_demo (master)
+$
